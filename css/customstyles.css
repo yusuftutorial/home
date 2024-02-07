@@ -145,13 +145,13 @@ table > tfoot > tr > td {
     padding: 8px;
     line-height: 1.42857143;
     vertical-align: top;
-    border-top: 1px solid #ddd;
+    border-top: 1px solid #bb272700;
 }
 table > thead > tr > th {
     vertical-align: bottom;
-    border-bottom: 2px solid #ddd;
+    border-bottom: 2px solid #bb272700;
     text-transform: none;
-    background-color: #777;
+    background-color: #005a02;
     color: white;
     text-align: left;
 }
@@ -165,7 +165,7 @@ table > thead:first-child > tr:first-child > td {
 }
 
 table > tbody > tr:nth-of-type(odd) {
-    background-color: #f9f9f9;
+    background-color: #000000;
 }
 
 table col[class*="col-"] {
