@@ -27,10 +27,8 @@ entries:
       url: /rule-clash.html
       output: web
 
-    folderitems:
-    - title: Rule Android
-      url: /rule-android.html
-      output: web, pdf
+  - title: Rule Android
+    output: web, pdf
 
     - title: Android Game
       url: /android-game.html
@@ -71,6 +69,9 @@ entries:
     - title: Android Block Porno
       url: /android-block-porno.html
       output: web, pdf
+
+  - title: Rule Windows
+    output: web, pdf
 
     folderitems:
     - title: Rule Windows
@@ -117,6 +118,9 @@ entries:
       url: /Windows-block-porno.html
       output: web, pdf
 
+  - title: Rule Openwrt
+    output: web, pdf
+
     folderitems:
     - title: Rule Openwrt
       url: /rule-openwrt.html
@@ -162,11 +166,10 @@ entries:
       url: /Openwrt-block-porno.html
       output: web, pdf
 
-    folderitems:
-    - title: Rule Magisk
-      url: /rule-magisk.html
-      output: web, pdf
+  - title: Rule Magisk
+    output: web, pdf
 
+    folderitems:
     - title: Magisk Game
       url: /-game.html
       output: web, pdf
@@ -205,26 +208,6 @@ entries:
 
     - title: Magisk Block Porno
       url: /-block-porno.html
-      output: web, pdf
-
-  - title: Another heading
-    output: web, pdf
-
-    folderitems:
-    - title: Sample 4
-      url: /p1_sample4.html
-      output: web, pdf
-
-    - title: Sample 5
-      url: /p1_sample5.html
-      output: web, pdf
-
-    - title: Sample 6
-      url: /p1_sample6.html
-      output: web, pdf
-
-    - title: Sample 7
-      url: /p1_sample7.html
       output: web, pdf
 
 # Copyright 2021 Google LLC
