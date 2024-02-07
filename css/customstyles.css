@@ -133,7 +133,7 @@ th {
 table {
     max-width: 90%;
     margin-bottom: 20px;
-    border: 1px solid #dedede;
+    border: 1px solid #ffffff;
 }
 
 table > thead > tr > th,
@@ -182,8 +182,8 @@ table th[class*="col-"] {
 
 table tr td {
     hyphens: auto;
+    color: #ffffff;
 }
-
 
 p.external a {
     text-align:right;
