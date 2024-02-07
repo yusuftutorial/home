@@ -249,12 +249,13 @@ div#toc ul li {
     font-size: 90%;
     list-style: square;
 }
+
 div#toc ul {
-    background-color: #00bd03;
+    background-color: #03401e;
     padding: 5px;
     border-radius: 5px;
     max-width: 300px;
-    color: #af0606;
+    color: #afaa06;
 }
 
 div#toc ul li ul {
