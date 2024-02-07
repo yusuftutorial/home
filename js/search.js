@@ -13,7 +13,7 @@
 
       searchResults.innerHTML = appendString;
     } else {
-      searchResults.innerHTML = '<li>No results found</li>';
+      searchResults.innerHTML = '<li>Tidak saya temukan</li>';
     }
   }
 
@@ -40,8 +40,8 @@
     var idx = lunr(function () {
       this.field('id');
       this.field('title', { boost: 10 });
-      this.field('author');
-      this.field('category');
+      this.field('tags');
+      this.field('summary');
       this.field('content');
     });
 
@@ -49,8 +49,8 @@
       idx.add({
         'id': key,
         'title': window.store[key].title,
-        'author': window.store[key].author,
-        'category': window.store[key].category,
+        'tags': window.store[key].tag,
+        'summary': window.store[key].summary,
         'content': window.store[key].content
       });
 
