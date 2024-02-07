@@ -8,4 +8,42 @@
             </div>
 </footer>
 
-{% comment %} Copyright 2021 Google LLC {% endcomment %}
+<!-- salin code pre blog post -->
+<script type='text/javascript'>
+const copyButtonLabel = &quot;Salin Code&quot;;
+
+// use a class selector if available
+let blocks = document.querySelectorAll(&quot;pre&quot;);
+
+blocks.forEach((block) =&gt; {
+  // only add button if browser supports Clipboard API
+  if (navigator.clipboard) {
+    let button = document.createElement(&quot;button&quot;);
+
+    button.innerText = copyButtonLabel;
+    block.appendChild(button);
+
+    button.addEventListener(&quot;click&quot;, async () =&gt; {
+      await copyCode(block, button);
+    });
+  }
+});
+
+async function copyCode(block, button) {
+  let code = block.querySelector(&quot;code&quot;);
+  let text = code.innerText;
+
+  await navigator.clipboard.writeText(text);
+
+  // visual feedback that task is completed
+  button.innerText = &quot;Sukses Menyalin&quot;;
+
+  setTimeout(() =&gt; {
+    button.innerText = copyButtonLabel;
+  }, 700);
+}
+</script>
+
+<link href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/agate.min.css' rel='stylesheet'/>
+<script src='//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js'/>
+<script>hljs.initHighlightingOnLoad();</script>

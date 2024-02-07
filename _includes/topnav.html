@@ -51,15 +51,9 @@
                 {% endfor %}
                 {% endfor %}
                 {% if site.feedback_disable == null or site.feedback_disable == false %}
-			{% include feedback.html %}
-		{% endif %}
-                <!--search-->
-                <li>
-                <form action="/search.html" method="get">
-	            	<input type="text" id="search_box" name="query">
-	            	<input type="submit" value="search">
-	            </form>
-                </li>
+			    {% include feedback.html %}
+		        {% endif %}
+                <li><a title="Cari tutorial, file, atau dokumentasi" href="/search.html"><i class="fa fa-search"></i> Search</a></li>
             </ul>
         </div>
         </div>
