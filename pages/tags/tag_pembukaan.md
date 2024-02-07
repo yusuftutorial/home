@@ -2,7 +2,7 @@
 title: "Pembukaan"
 tagName: pembukaan
 search: exclude
-permalink: label/pembukaan.html
+permalink: tag-pembukaan.html
 sidebar: mydoc
 folder: tags
 ---
