@@ -1,6 +1,6 @@
 .summary {
-    color: #808080;
-    border-left: 5px solid #ED1951;
+    color: #ffffff;
+    border-left: 5px solid #00bd03;
     font-size:16px;
 }
 
@@ -14,7 +14,7 @@ h4 {color: #808080; }
 }
 
 .nav > li.active > a {
-    background-color: #347DBE;
+    background-color: #006e02;
 }
 
 .nav > li > a:hover {
@@ -106,7 +106,7 @@ li.sidebarTitle {
   margin-top:20px;
     font-weight:normal;
     font-size:130%;
-    color: #ED1951;
+    color: #00bd03;
     margin-bottom:10px;
     margin-left: 5px;
 

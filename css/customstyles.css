@@ -250,11 +250,11 @@ div#toc ul li {
     list-style: square;
 }
 div#toc ul {
-    background-color: whitesmoke;
+    background-color: #00bd03;
     padding: 5px;
     border-radius: 5px;
     max-width: 300px;
-    color: gray;
+    color: #af0606;
 }
 
 div#toc ul li ul {
