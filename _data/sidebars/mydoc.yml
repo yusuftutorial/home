@@ -23,25 +23,37 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Get started
+    - title: Pembukaan
       url: /index.html
       output: web, pdf
       type: homepage
 
-    - title: Introduction
-      url: /mydoc_introduction.html
-      output: web, pdf
-
-    - title: Supported features
-      url: /mydoc_supported_features.html
-      output: web, pdf
-
-    - title: About the theme author
-      url: /mydoc_about.html
+    - title: Kontak
+      url: /kontak.html
       output: web, pdf
 
     - title: Support
-      url: /mydoc_support.html
+      url: /support.html
+      output: web, pdf
+
+    - title: File
+      url: /file.html
+      output: web, pdf
+
+    - title: Sitemap
+      url: /sitemap.html
+      output: web, pdf
+
+    - title: Disclaimer
+      url: /disclaimer.html
+      output: web, pdf
+
+    - title: Privacy policy
+      url: /privacy-policy.html
+      output: web, pdf
+
+    - title: Term of service
+      url: /sitemap.html
       output: web, pdf
 
   - title: Release Notes
