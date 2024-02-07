@@ -17,7 +17,7 @@ permalink: search.html
             searchInput: document.getElementById('search-input'),
             resultsContainer: document.getElementById('results-container'),
             dataSource: '{{ "search.json" }}',
-            searchResultTemplate: '<li><a href="{url}" title="{{page.title | escape }}">{title}</a></li>',
+            searchResultTemplate: '<ul><li><a href="{url}" title="{{page.title | escape }}">{title}</a></li><ul>',
 noResultsText: '{{site.data.strings.search_no_results_text}}',
         limit: 10,
         fuzzy: true,

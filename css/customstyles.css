@@ -202,13 +202,13 @@ p.post-meta {font-size: 80%; color: #777;}
 /* search area */
 #search-demo-container ul#results-container {
     list-style: none;
-    font-size: 12px;
-    background-color: white;
-    position: absolute;
+    font-size: 14px;
+    background-color: black;
+    position: flex;
     top: 40px; /* if you change anything about the nav, you'll prob. need to reset the top and left values here.*/
     left: 20px;
     z-index: -1;
-    width:223px;
+    width:100%;
     border-left: 1px solid #dedede;
 }
 
@@ -218,17 +218,17 @@ ul#results-container a {
 }
 
 ul#results-container a:hover {
-    color: black;
+    color: orange;
 }
 
 
 #search-demo-container a:hover {
-    color: black;
+    color: orange;
 }
 #search-input {
     padding: .5em;
-    margin-left:20px;
-    width:20em;
+    margin-left:auto;
+    width:100%;
     font-size: 0.8em;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
