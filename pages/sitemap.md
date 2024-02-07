@@ -3,7 +3,7 @@ title: Sitemap
 layout: sitemap
 sidebar: home
 keywords: sitemap
-permalink: search.html
+permalink: sitemap.html
 ---
 
 <style type='text/css' scoped="">
