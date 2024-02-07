@@ -12,7 +12,7 @@ site_title: Edukasi seputar teknologi, adsense, youtube, blog, affiliasi, dan la
 company_name: Yusuf Tutorial Channel
 # this appears in the footer
 
-github_editme_path: yusuftutorial/home/blob/gh-pages/
+github_editme_path: yusuftutorial/home/blob/main/
 # if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 
 # gitlab_editme_path: yusuftutorial/home/blob/gh-pages/
@@ -74,7 +74,7 @@ defaults:
       comments: true
       # if you don't want to use Commento.io and just hide comments, change true to false wherever you see the comments property
       search: true
-      sidebar: home_sidebar
+      sidebar: home
       topnav: topnav
   -
     scope:
@@ -94,16 +94,16 @@ defaults:
       comments: true
       # if you don't want to use Commento.io and just hide comments, change true to false wherever you see the comments property
       search: true
-      sidebar: home_sidebar
+      sidebar: home
       topnav: topnav
 
 # these are defaults used for the frontmatter for these file types
 
 sidebars:
-- home_sidebar
-- mydoc_sidebar
-- product1_sidebar
-- product2_sidebar
+- home
+- mydoc
+- product1
+- product2
 - other
 
 description: "Edukasi seputar teknologi, adsense, youtube, blog, affiliasi, dan lainnya."

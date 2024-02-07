@@ -3,7 +3,7 @@ title: "Pembukaan"
 tagName: pembukaan
 search: exclude
 permalink: pembukaan.html
-sidebar: mydoc_sidebar
+sidebar: mydoc
 folder: tags
 ---
 {% include taglogic.html %}

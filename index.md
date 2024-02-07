@@ -2,7 +2,7 @@
 title: "Selamat datang di Documentation Yusuf Tutorial channel"
 keywords: beranda
 tags: [pembukaan]
-sidebar: mydoc_sidebar
+sidebar: mydoc
 permalink: index.html
 summary: Halaman utama website dokumentasi dari Yusuf Tutorial Channel.
 ---
