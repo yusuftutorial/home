@@ -270,14 +270,14 @@ div#toc ul li ul li::before {
 div#toc >ul::before {
     content: "Table of Contents";
     font-weight: 500;
-    color: #555;
-    text-align:center;
-    margin-left:auto;
-    margin-right:auto;
-    width:70px;
-    padding-top:20px;
-    padding-bottom:20px;
-    padding-left:10px;
+    color: #ede840;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
 }
 
 li.dropdownActive a {
