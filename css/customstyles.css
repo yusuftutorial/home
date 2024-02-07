@@ -1206,3 +1206,9 @@ h4.panel-title {
         display:block !important;
     }
 }
+
+.search {
+	width: 50%;
+	margin: 0 auto;
+	padding: 100px 0;
+}

@@ -53,7 +53,13 @@
                 {% if site.feedback_disable == null or site.feedback_disable == false %}
 			{% include feedback.html %}
 		{% endif %}
-                <!--comment out this block if you want to hide search-->
+                <!--search-->
+                <li>
+                <form action="/search.html" method="get">
+	            	<input type="text" id="search_box" name="query">
+	            	<input type="submit" value="search">
+	            </form>
+                </li>
             </ul>
         </div>
         </div>
