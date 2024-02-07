@@ -78,20 +78,20 @@ async function copyCode(block, button) {
     {% for post in site.posts %}
       "{{ post.url | slugify }}": {
         "title": "{{ post.title | xml_escape }}",
-        "tags": "{{ post.tags | xml_escape }}",
-        "summary": "{{ post.summary | xml_escape }}",
+        "tags": "{{ post.tag | xml_escape }}",
+        "keywords": "{{ page.keywords | escape }}",
         "content": {{ post.content | strip_html | strip_newlines | jsonify }},
-        "url": "{{ post.url | xml_escape }}"
+        "url": "{{ site.url }}{{ post.url }}"
       }
       {% unless forloop.last %},{% endunless %}
     {% endfor %}
     {% for page in site.pages %}
       "{{ page.url | slugify }}": {
-        "title": "{{ page.title | xml_escape }}",
-        "tags": "{{ page.tags | xml_escape }}",
-        "summary": "{{ page.summary | xml_escape }}",
+        "title": "{{ page.title | escape }}",
+        "tag": "{{ page.tag | escape }}",
+        "keywords": "{{ page.keywords | escape }}",
         "content": {{ page.content | strip_html | strip_newlines | jsonify }},
-        "url": "{{ page.url | xml_escape }}"
+        "url": "{{ site.url }}{{ page.url }}"
       }
       {% unless forloop.last %},{% endunless %}
     {% endfor %}
