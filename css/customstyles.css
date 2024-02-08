@@ -301,6 +301,7 @@ li.dropdownActive a {
 
 footer {
     font-size: smaller;
+    color: white;
 }
 
 /* FAQ page */
@@ -1308,12 +1309,12 @@ h4.panel-title {
     border: none;
   }
 
-  #header-gh-btns {
-    margin-bottom: 0.9375rem;
+#header-gh-btns {
+  margin-bottom: 0.9375rem;
+}
+@media (max-width: 500px) {
+  #header-gh-btns > iframe {
+    display: block;
+    margin-bottom: 0.3125rem;
   }
-  @media (max-width: 500px) {
-    #header-gh-btns > iframe {
-      display: block;
-      margin-bottom: 0.3125rem;
-    }
-  }
+}
