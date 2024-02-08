@@ -4,114 +4,111 @@ entries:
 - title: Sidebar
   levels: one
   folders:
-
-  - title: Home
-    url: /index.html
-    output: web, pdf
-    type: homepage
-
+  
   - title: Ringkasan
     output: web
     folderitems:
 
-    subfolders:
-    - title: Beranda
-      output: web
-      subfolderitem:
-
-      - title: Kontak
-        url: /kontak.html
+    - title: Home
+        url: /index.html
         output: web, pdf
+        type: homepage
 
-      - title: Support
-        url: /support.html
-        output: web, pdf
+      subfolders:
+      - title: Tentang saya
+        output: web
+        subfolderitem:
 
-      - title: File
-        url: /file.html
-        output: web, pdf
+        - title: Kontak
+          url: /kontak.html
+          output: web, pdf
 
-      - title: Sitemap
-        url: /sitemap.html
-        output: web, pdf
+        - title: Support
+          url: /support.html
+          output: web, pdf
 
-      - title: Disclaimer
-        url: /disclaimer.html
-        output: web, pdf
+        - title: File
+          url: /file.html
+          output: web, pdf
 
-      - title: Privacy policy
-        url: /privacy-policy.html
-        output: web, pdf
+        - title: Sitemap
+          url: /sitemap.html
+          output: web, pdf
 
-      - title: Term of service
-        url: /sitemap.html
-        output: web, pdf
+        - title: Disclaimer
+          url: /disclaimer.html
+          output: web, pdf
+
+        - title: Privacy policy
+          url: /privacy-policy.html
+          output: web, pdf
+
+        - title: Term of service
+          url: /sitemap.html
+          output: web, pdf
     
-    subfolders:
-    - title: Tutorial
-      output: web
-      subfolderitem:
+      subfolders:
+      - title: Tutorial
+        output: web
+        subfolderitem:
 
-      - title: Blog
-        url: /news.html
-        output: web
-      
-      - title: Arsip
-        url: /arsip.html
-        output: web
+        - title: Blog
+          url: /news.html
+          output: web
+          
+        - title: Arsip
+          url: /arsip.html
+          output: web
 
   - title: Update
     output: web, pdf
     folderitems:
 
-    subfolders:
-    - title: Dokumentasi Clash
-      output: web
-      subfolderitem:
+      subfolders:
+      - title: Dokumentasi Clash
+        output: web
+        subfolderitem:
 
-      - title: Openclash
-        url: /openclash.html
-        output: web, pdf
-      
-      - title: Clash Android
-        url: /clash-android.html
-        output: web, pdf
+        - title: Openclash
+          url: /openclash.html
+          output: web, pdf
+        
+        - title: Clash Android
+          url: /clash-android.html
+          output: web, pdf
 
-      - title: Clash Magisk
-        url: /clash-magisk.html
-        output: web, pdf
-      
-      - title: Clash Windows
-        url: /clash-windows.html
-        output: web, pdf
+        - title: Clash Magisk
+          url: /clash-magisk.html
+          output: web, pdf
+        
+        - title: Clash Windows
+          url: /clash-windows.html
+          output: web, pdf
 
-    subfolders:
-    - title: File
-      output: web
-      subfolderitem:
+      subfolders:
+      - title: File
+        output: web
+        subfolderitem:
 
-      - title: File Openclash
-        url: /file-openclash.html
-        output: web, pdf
-      
-      - title: File Clash Android
-        url: /file-clash-android.html
-        output: web, pdf
+        - title: File Openclash
+          url: /file-openclash.html
+          output: web, pdf
+        
+        - title: File Clash Android
+          url: /file-clash-android.html
+          output: web, pdf
 
-      - title: File Clash Magisk
-        url: /file-clash-magisk.html
-        output: web, pdf
-      
-      - title: File Clash Windows
-        url: /file-clash-windows.html
-        output: web, pdf
-    
-    subfolders:
-    - title: File
-      output: web
-      subfolderitem:
+        - title: File Clash Magisk
+          url: /file-clash-magisk.html
+          output: web, pdf
+        
+        - title: File Clash Windows
+          url: /file-clash-windows.html
+          output: web, pdf
+
+  - title: Toko
+    output: web
+    folderitems:
 
       - title: Toko Shop
         external_url: https://mycollection.shop/serbulapakku
-
-# Copyright 2021 Google LLC
