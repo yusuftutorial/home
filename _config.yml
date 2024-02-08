@@ -138,7 +138,7 @@ giscus:
   repo:                "yusuftutorial/home"
   repo-id:             "46000841"
   category:            "Comments"
-  category-id:         "[your-category-id]"
+  category-id:         "MDQ6VXNlcjQ2MDAwODQx"
   mapping:             "pathname"
   reaction-enabled:    "1"
   theme:               "dark_dimmed"
