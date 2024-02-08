@@ -1,8 +1,8 @@
 # This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
 
 entries:
-- title: Product2
-  product: Product2
+- title: Clash
+  product: Yusuf Tutorial
   version: 1.0
   folders:
 
@@ -19,12 +19,12 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: Introduction
+  - title: Clash
     output: web, pdf
     folderitems:
 
-    - title: Overview
-      url: /p2_landing_page.html
+    - title: Pengenalan Clash
+      url: /clash.html
       output: web
 
   - title: Simple Workflow
