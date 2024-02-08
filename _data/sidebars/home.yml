@@ -1,5 +1,3 @@
-# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
-
 entries:
 - title: Sidebar
   levels: one
@@ -13,7 +11,20 @@ entries:
       url: /index.html
       output: web
       type: homepage
+    
+      subfolders:
+      - title: Tutorial
+        output: web
+        subfolderitems:
 
+        - title: Blog
+          url: /blog.html
+          output: web
+          
+        - title: Arsip
+          url: /arsip.html
+          output: web
+      
       subfolders:
       - title: Tentang Saya
         output: web
@@ -45,19 +56,6 @@ entries:
 
         - title: Term of service
           url: /sitemap.html
-          output: web
-    
-      subfolders:
-      - title: Tutorial
-        output: web
-        subfolderitems:
-
-        - title: Blog
-          url: /blog.html
-          output: web
-          
-        - title: Arsip
-          url: /arsip.html
           output: web
 
   - title: Update
