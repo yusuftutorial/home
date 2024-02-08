@@ -8,18 +8,101 @@ entries:
   - title: Ringkasan
     output: web
     folderitems:
+
     - title: Beranda
-      url: /index.html
-    - title: Blog
-      url: /news.html
       output: web
-    - title: Kontak
-      url: /kontak.html
-    - title: Product 1
-      url: /p1_landing_page.html
+      subfolderitem:
+
+      - title: Home
+        url: /index.html
+        output: web, pdf
+        type: homepage
+      
+      - title: Kontak
+        url: /kontak.html
+        output: web, pdf
+
+      - title: Support
+        url: /support.html
+        output: web, pdf
+
+      - title: File
+        url: /file.html
+        output: web, pdf
+
+      - title: Sitemap
+        url: /sitemap.html
+        output: web, pdf
+
+      - title: Disclaimer
+        url: /disclaimer.html
+        output: web, pdf
+
+      - title: Privacy policy
+        url: /privacy-policy.html
+        output: web, pdf
+
+      - title: Term of service
+        url: /sitemap.html
+        output: web, pdf
+    
+    - title: Tutorial
       output: web
-    - title: Product 2
-      url: /p2_landing_page.html
+      subfolderitem:
+
+      - title: Blog
+        url: /news.html
+        output: web
+      
+      - title: Arsip
+        url: /arsip.html
+        output: web
+
+  - title: Update
+    output: web, pdf
+    folderitems:
+
+    - title: Dokumentasi Clash
       output: web
+      subfolderitem:
+
+      - title: Openclash
+        url: /openclash.html
+        output: web, pdf
+      
+      - title: Clash Android
+        url: /clash-android.html
+        output: web, pdf
+
+      - title: Clash Magisk
+        url: /clash-magisk.html
+        output: web, pdf
+      
+      - title: Clash Windows
+        url: /clash-windows.html
+        output: web, pdf
+
+    - title: File
+      output: web
+      subfolderitem:
+
+      - title: File Openclash
+        url: /file-openclash.html
+        output: web, pdf
+      
+      - title: File Clash Android
+        url: /file-clash-android.html
+        output: web, pdf
+
+      - title: File Clash Magisk
+        url: /file-clash-magisk.html
+        output: web, pdf
+      
+      - title: File Clash Windows
+        url: /file-clash-windows.html
+        output: web, pdf
+    
+    - title: Toko Shop
+      external_url: https://mycollection.shop/serbulapakku
 
 # Copyright 2021 Google LLC

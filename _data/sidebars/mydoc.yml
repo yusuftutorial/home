@@ -19,43 +19,6 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: Ringkasan
-    output: web, pdf
-    folderitems:
-
-    - title: Pembukaan
-      url: /index.html
-      output: web, pdf
-      type: homepage
-
-    - title: Kontak
-      url: /kontak.html
-      output: web, pdf
-
-    - title: Support
-      url: /support.html
-      output: web, pdf
-
-    - title: File
-      url: /file.html
-      output: web, pdf
-
-    - title: Sitemap
-      url: /sitemap.html
-      output: web, pdf
-
-    - title: Disclaimer
-      url: /disclaimer.html
-      output: web, pdf
-
-    - title: Privacy policy
-      url: /privacy-policy.html
-      output: web, pdf
-
-    - title: Term of service
-      url: /sitemap.html
-      output: web, pdf
-
   - title: Release Notes
     output: web, pdf
     folderitems:
