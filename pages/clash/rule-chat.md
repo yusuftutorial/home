@@ -15,3 +15,5 @@ comments: true
   - "+.whatsapp.net"
   - "+.line.me"
 </code></pre>
+
+{% include komentar.html %}

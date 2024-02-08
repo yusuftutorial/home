@@ -566,3 +566,5 @@ comments: true
   - "+.yoshisnewisland.com"
   - "+.神奇宝贝.cn"
 </code></pre>
+
+{% include komentar.html %}

@@ -42,3 +42,5 @@ comments: true
   - "+.nimo.tv"
   - "+.obsproject.com"
 </code></pre>
+
+{% include komentar.html %}

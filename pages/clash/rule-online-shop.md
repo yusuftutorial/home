@@ -23,3 +23,5 @@ comments: true
   - "+.ebay.com"
   - "+.shopify.com"
 </code></pre>
+
+{% include komentar.html %}
