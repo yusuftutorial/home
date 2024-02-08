@@ -11,7 +11,10 @@ entries:
       url: /index.html
       output: web
       type: homepage
-    
+
+    - title: Dokumentasi
+      output: web
+
       subfolders:
       - title: Tutorial
         output: web
@@ -20,7 +23,7 @@ entries:
         - title: Blog
           url: /blog.html
           output: web
-          
+              
         - title: Arsip
           url: /arsip.html
           output: web
@@ -61,6 +64,9 @@ entries:
   - title: Update
     output: web
     folderitems:
+
+    - title: Dokumentasi
+      output: web
 
       subfolders:
       - title: Dokumentasi Clash
