@@ -12,37 +12,13 @@ summary: Halaman beranda dari Yusuf Tutorial Channel.
 ## Data Pribadi
 
 ```html
-Nama : Muhammad Yusuf
-Alamat: Jl. A. Yani KM 14.500
-Kecamatan: Gambut
-Kelurahan: Gambut
-Kabupaten: Banjar
-Propinsi: Kalimantan Selatan
-Negara: Indonesia
+Nama      : Muhammad Yusuf
+Alamat    : Jl. A. Yani KM 14.500
+Kecamatan : Gambut
+Kelurahan : Gambut
+Kabupaten : Banjar
+Propinsi  : Kalimantan Selatan
+Negara    : Indonesia
 ```
-
-### Materi dalam Dokumentasi
-
-- [Adsense](/adsense/)
-- [Youtube](/youtube/)
-- [Blog](/blog/)
-- [Affiliate](/affiliate/)
-- [Sosmed](/sosmed/)
-- [OpenWRT](/openwrt/)
-- [Mikrotik](/mikrotik/)
-- [Clash](/clash/)
-- [Modem](/modem/)
-- [Router](/router/)
-- [Antena](/antena/)
-- [Aplikasi](/aplikasi/)
-- [Software](/software/)
-- [Firmware](/firmware/)
-
-### File
-
-- [Clash Android](/file-clash-android/)
-- [Clash Windows](/file-clash-windows/)
-- [Clash OpenWRT](/file-clash-openwrt)
-- [Clash Magisk](/file-clash-magisk/)
 
 {% include links.html %}
