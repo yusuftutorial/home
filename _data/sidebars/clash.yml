@@ -82,8 +82,12 @@ entries:
       url: /proxy-shadowsocks.html
       output: web, pdf
 
-    - title: Sock
-      url: /p2_sample5.html
+    - title: Socks
+      url: /proxy-socks.html
+      output: web, pdf
+    
+    - title: Snell
+      url: /proxy-snell.html
       output: web, pdf
 
   - title: Rule Clash
