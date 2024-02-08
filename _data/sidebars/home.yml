@@ -16,10 +16,6 @@ entries:
       url: /kontak.html
       output: web
 
-    - title: Support
-      url: /support.html
-      output: web
-
     - title: Sitemap
       url: /sitemap.html
       output: web
