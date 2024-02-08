@@ -1,9 +1,9 @@
 ---
-title: "Pembukaan"
-tagName: pembukaan
+title: "Ringkasan"
+tagName: ringkasan
 search: exclude
-permalink: tag-pembukaan.html
-sidebar: mydoc
+permalink: tag-ringkasan.html
+sidebar: home
 folder: tags
 ---
 {% include taglogic.html %}
