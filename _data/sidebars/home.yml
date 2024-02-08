@@ -5,19 +5,20 @@ entries:
   levels: one
   folders:
 
+  - title: Home
+    url: /index.html
+    output: web, pdf
+    type: homepage
+
   - title: Ringkasan
     output: web
     folderitems:
 
+    subfolders:
     - title: Beranda
       output: web
       subfolderitem:
 
-      - title: Home
-        url: /index.html
-        output: web, pdf
-        type: homepage
-      
       - title: Kontak
         url: /kontak.html
         output: web, pdf
@@ -46,6 +47,7 @@ entries:
         url: /sitemap.html
         output: web, pdf
     
+    subfolders:
     - title: Tutorial
       output: web
       subfolderitem:
@@ -62,6 +64,7 @@ entries:
     output: web, pdf
     folderitems:
 
+    subfolders:
     - title: Dokumentasi Clash
       output: web
       subfolderitem:
@@ -82,6 +85,7 @@ entries:
         url: /clash-windows.html
         output: web, pdf
 
+    subfolders:
     - title: File
       output: web
       subfolderitem:
@@ -102,7 +106,12 @@ entries:
         url: /file-clash-windows.html
         output: web, pdf
     
-    - title: Toko Shop
-      external_url: https://mycollection.shop/serbulapakku
+    subfolders:
+    - title: File
+      output: web
+      subfolderitem:
+
+      - title: Toko Shop
+        external_url: https://mycollection.shop/serbulapakku
 
 # Copyright 2021 Google LLC

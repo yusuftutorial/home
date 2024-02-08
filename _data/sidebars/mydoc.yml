@@ -221,7 +221,6 @@ entries:
 
   - title: Troubleshooting
     output: web, pdf
-
     folderitems:
 
     - title: Troubleshooting
