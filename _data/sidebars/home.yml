@@ -2,105 +2,105 @@ entries:
 - title: Sidebar
   levels: one
   folders:
-  
-  - title: Beranda
-    url: /index.html
-    output: web
-    type: homepage
 
-  - title: Menu lainnya
+  - title: Halaman Utama
+    output: web
+    folderitems:
+    
+    - title: Beranda
+      url: /index.html
+      output: web
+      type: homepage
+    
+    - title: Kontak
+      url: /kontak.html
+      output: web
+
+    - title: Support
+      url: /support.html
+      output: web
+
+    - title: File
+      url: /file.html
+      output: web
+
+   - title: Sitemap
+      url: /sitemap.html
+      output: web
+
+    - title: Disclaimer
+      url: /disclaimer.html
+      output: web
+
+    - title: Privacy policy
+      url: /privacy-policy.html
+      output: web
+
+    - title: Term of service
+      url: /sitemap.html
+      output: web
+
+  - title: Tutorial
     output: web
     folderitems:
 
-      subfolders:
-      - title: Tutorial
-        output: web
-        subfolderitems:
-
-        - title: Blog
-          url: /blog.html
-          output: web
+    - title: Blog
+      url: /blog.html
+      output: web
               
-        - title: Arsip
-          url: /arsip.html
-          output: web
-
-      - title: Tentang Saya
-        output: web
-        subfolderitems:
-
-        - title: Kontak
-          url: /kontak.html
-          output: web
-
-        - title: Support
-          url: /support.html
-          output: web
-
-        - title: File
-          url: /file.html
-          output: web
-
-        - title: Sitemap
-          url: /sitemap.html
-          output: web
-
-        - title: Disclaimer
-          url: /disclaimer.html
-          output: web
-
-        - title: Privacy policy
-          url: /privacy-policy.html
-          output: web
-
-        - title: Term of service
-          url: /sitemap.html
-          output: web
+    - title: Arsip
+      url: /arsip.html
+      output: web
 
   - title: Update
     output: web
     folderitems:
 
-      subfolders:
-      - title: Dokumentasi Clash
+      - title: Clash
+        url: /clash.html
         output: web
-        subfolderitems:
 
-        - title: Openclash
-          url: /openclash.html
+        subfolders:
+        - title: Dokumentasi Clash
           output: web
-          
-        - title: Clash Android
-          url: /clash-android.html
-          output: web
+          subfolderitems:
 
-        - title: Clash Magisk
-          url: /clash-magisk.html
-          output: web
-          
-        - title: Clash Windows
-          url: /clash-windows.html
-          output: web
+          - title: Openclash
+            url: /openclash.html
+            output: web
+            
+          - title: Clash Android
+            url: /clash-android.html
+            output: web
 
-      - title: File
-        output: web
-        subfolderitems:
+          - title: Clash Magisk
+            url: /clash-magisk.html
+            output: web
+            
+          - title: Clash Windows
+            url: /clash-windows.html
+            output: web
 
-        - title: File Openclash
-          url: /file-openclash.html
+        subfolders:
+        - title: File
           output: web
-          
-        - title: File Clash Android
-          url: /file-clash-android.html
-          output: web
+          subfolderitems:
 
-        - title: File Clash Magisk
-          url: /file-clash-magisk.html
-          output: web
-          
-        - title: File Clash Windows
-          url: /file-clash-windows.html
-          output: web
+          - title: File Openclash
+            url: /file-openclash.html
+            output: web
+            
+          - title: File Clash Android
+            url: /file-clash-android.html
+            output: web
+
+          - title: File Clash Magisk
+            url: /file-clash-magisk.html
+            output: web
+            
+          - title: File Clash Windows
+            url: /file-clash-windows.html
+            output: web
 
   - title: Toko
     output: web
