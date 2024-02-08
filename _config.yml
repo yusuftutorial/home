@@ -111,5 +111,9 @@ description: "Edukasi seputar teknologi, adsense, youtube, blog, affiliasi, dan 
 # url: http://idratherbewriting.com
 # baseurl: /home
 
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo
 
 github: [metadata]
