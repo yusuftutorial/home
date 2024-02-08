@@ -74,6 +74,8 @@ defaults:
       search: true
       sidebar: home
       topnav: topnav
+      provider: giscus
+
   -
     scope:
       path: ""
@@ -90,6 +92,7 @@ defaults:
     values:
       layout: "post"
       comments: true
+        provider: giscus
       search: true
       sidebar: home
       topnav: topnav
@@ -118,8 +121,7 @@ plugins:
 github: [metadata]
 
 # Set which comment system to use
-comments:
-  provider:            giscus
+
 
 # You must install giscus github app before use.(https://github.com/apps/giscus)
 # Make sure all variables are set properly. Check below link for detail.
