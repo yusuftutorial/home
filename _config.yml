@@ -107,8 +107,8 @@ description: "Edukasi seputar teknologi, adsense, youtube, blog, affiliasi, dan 
 # the description is used in the feed.xml file
 
 # needed for sitemap.xml file only
-# url: http://idratherbewriting.com
-# baseurl: /home
+url: https://yusuftutorial.xyz
+baseurl: /
 
 plugins:
   - jekyll-sitemap
