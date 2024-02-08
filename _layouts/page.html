@@ -38,28 +38,12 @@ layout: default
     {% include toc.html %}
     {% endunless %}
 
-    {% if page.gh-repo %}
-        {% assign gh_split =  page.gh-repo | split:'/'  %}
-        {% assign gh_user =  gh_split[0]  %}
-        {% assign gh_repo =  gh_split[1]  %}
-
-        <div id="header-gh-btns">
-          {% if page.gh-badge.size > 0 %}
-            {% for badge in page.gh-badge %}
-              {% case badge %}
-                {% when 'star'%}
-                  <iframe src="https://ghbtns.com/github-btn.html?user=yusuftutorial&repo=home&type=star&count=true" frameborder="0" scrolling="0" width="120" height="20"></iframe>
-                {% when 'watch'%}
-                  <iframe src="https://ghbtns.com/github-btn.html?user=yusuftutorial&repo=home&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="120" height="20"></iframe>
-                {% when 'fork'%}
-                  <iframe src="https://ghbtns.com/github-btn.html?user=yusuftutorial&repo=home&type=fork&count=true" frameborder="0" scrolling="0" width="120px" height="20px"></iframe>
-                {% when 'follow'%}
-                  <iframe src="https://ghbtns.com/github-btn.html?user=yusuftutorial&type=follow&count=true" frameborder="0" scrolling="0" width="220px" height="20px"></iframe>
-              {% endcase %}
-            {% endfor %}
-          {% endif %}
-        </div>
-      {% endif %}
+    <div id="header-gh-btns">
+        <iframe src="https://ghbtns.com/github-btn.html?user=yusuftutorial&repo=home&type=star&count=true" frameborder="0" scrolling="0" width="120" height="20"></iframe>
+        <iframe src="https://ghbtns.com/github-btn.html?user=yusuftutorial&repo=home&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="120" height="20"></iframe>
+        <iframe src="https://ghbtns.com/github-btn.html?user=yusuftutorial&repo=home&type=fork&count=true" frameborder="0" scrolling="0" width="120px" height="20px"></iframe>
+        <iframe src="https://ghbtns.com/github-btn.html?user=yusuftutorial&type=follow&count=true" frameborder="0" scrolling="0" width="220px" height="20px"></iframe>
+    </div>
 
     {% if site.github_editme_path %}
 
