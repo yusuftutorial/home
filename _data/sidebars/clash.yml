@@ -6,18 +6,13 @@ entries:
   version: 1.0
   folders:
 
-  - title:
-    output: pdf
-    type: frontmatter
+  - title: Home
+    output: web 
     folderitems:
-    - title:
-      url: /titlepage.html
-      output: pdf
-      type: frontmatter
-    - title:
-      url: /tocpage.html
-      output: pdf
-      type: frontmatter
+
+    - title: Beranda
+      url: /index.html
+      output: web
 
   - title: Clash
     output: web, pdf
@@ -26,69 +21,105 @@ entries:
     - title: Pengenalan Clash
       url: /clash.html
       output: web
-
-  - title: Simple Workflow
+  
+  - title: Config CLash
     output: web, pdf
     folderitems:
 
-    - title: Sample 1
-      url: /p2_sample1.html
+    - title: Simaster V1
+      url: /config-simaster-v1.html
       output: web, pdf
 
-    - title: Sample 2
-      url: /p2_sample2.html
+    - title: Simaster V2
+      url: /config-simaster-v2.html
       output: web, pdf
 
-    - title: Sample 3
-      url: /p2_sample3.html
+    - title: Simaster V3
+      url: /config-simaster-v3.html
       output: web, pdf
 
-    - title: Sample 4
-      url: /p2_sample4.html
+    - title: Simaster V4
+      url: /config-simaster-v4.html
       output: web, pdf
 
-    - title: Sample 5
+    - title: Simaster V5
+      url: /config-simaster-v5.html
+      output: web, pdf
+
+    - title: Simaster V6
+      url: /config-simaster-v6.html
+      output: web, pdf
+
+    - title: Simaster V7
+      url: /config-simaster-v7.html
+      output: web, pdf
+
+    - title: Simaster V8
+      url: /config-simaster-v8.html
+      output: web, pdf
+
+    - title: Simaster V9
+      url: /config-simaster-v9.html
+      output: web, pdf
+
+  - title: Proxy
+    output: web, pdf
+    folderitems:
+
+    - title: Trojan
+      url: /proxy-trojan.html
+      output: web, pdf
+
+    - title: Vmess
+      url: /proxy-vmess.html
+      output: web, pdf
+
+    - title: Vless
+      url: /proxy-vless.html
+      output: web, pdf
+
+    - title: Shadowsocks
+      url: /proxy-shadowsocks.html
+      output: web, pdf
+
+    - title: Sock
       url: /p2_sample5.html
       output: web, pdf
 
-  - title: Complex Workflow
+  - title: Rule Clash
     output: web, pdf
     folderitems:
 
-    - title: Sample 6
-      url: /p2_sample6.html
+    - title: Game
+      url: /rule-game.html
       output: web, pdf
 
-    - title: Sample 7
-      url: /p2_sample7.html
+    - title: Sosmed
+      url: /rule-sosmed.html
       output: web, pdf
 
-    - title: Sample 8
-      url: /p2_sample8.html
+    - title: Stream
+      url: /rule-stream.html
       output: web, pdf
 
-    - title: Sample 9
-      url: /p2_sample9.html
+    - title: Chat
+      url: /rule-chat.html
       output: web, pdf
 
-    - title: Sample 10
-      url: /p2_sample10.html
+    - title: Bank
+      url: /rule-bank.html
       output: web, pdf
 
-    - title: Sample 11
-      url: /p2_sample11.html
+    - title: Online Shop
+      url: /rule-online-shop.html
       output: web, pdf
 
-    - title: Sample 12
-      url: /p2_sample12.html
+    - title: Block Iklan
+      url: /rule-block-iklan.html
       output: web, pdf
 
-    - title: Sample 13
-      url: /p2_sample13.html
-      output: web, pdf
-
-    - title: Sample 14
-      url: /p2_sample14.html
+    - title: Block Porn
+      url: /rule-block-porn.html
       output: web, pdf
 
 # Copyright 2021 Google LLC
