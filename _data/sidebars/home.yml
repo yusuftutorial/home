@@ -3,17 +3,14 @@ entries:
   levels: one
   folders:
   
-  - title: Ringkasan
+  - title: Beranda
+    url: /index.html
+    output: web
+    type: homepage
+
+  - title: Menu lainnya
     output: web
     folderitems:
-
-    - title: Beranda
-      url: /index.html
-      output: web
-      type: homepage
-
-    - title: Dokumentasi
-      output: web
 
       subfolders:
       - title: Tutorial
@@ -27,8 +24,7 @@ entries:
         - title: Arsip
           url: /arsip.html
           output: web
-      
-      subfolders:
+
       - title: Tentang Saya
         output: web
         subfolderitems:
@@ -65,9 +61,6 @@ entries:
     output: web
     folderitems:
 
-    - title: Dokumentasi
-      output: web
-
       subfolders:
       - title: Dokumentasi Clash
         output: web
@@ -89,7 +82,6 @@ entries:
           url: /clash-windows.html
           output: web
 
-      subfolders:
       - title: File
         output: web
         subfolderitems:
