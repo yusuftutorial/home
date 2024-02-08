@@ -73,6 +73,17 @@ layout: default
 
 {% include donasi.html %}
 
+<div class="post-list">
+    <section id="archive">
+        <h3>Recent posts</h3>
+    <ul class="past">
+        {% for post in site.posts limit:5 %} 
+            <li><time>{{ post.date | date:"%d %b" }}</time><a href="{{ post.url | remove: "/"}}">{{ post.title }}</a></li>  
+        {% endfor %}  
+    </ul>
+    </section>
+</div>
+
 </div>
 
 {{site.data.alerts.hr_shaded}}
