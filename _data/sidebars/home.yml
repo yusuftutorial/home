@@ -9,15 +9,15 @@ entries:
     output: web
     folderitems:
 
+    - title: Home
+      url: /index.html
+      output: web, pdf
+      type: homepage
+
       subfolders:
       - title: Tentang saya
         output: web
         subfolderitem:
-
-        - title: Home
-          url: /index.html
-          output: web, pdf
-          type: homepage
 
         - title: Kontak
           url: /kontak.html
@@ -64,51 +64,51 @@ entries:
     output: web, pdf
     folderitems:
 
-      subfolders:
-      - title: Dokumentasi Clash
-        output: web
-        subfolderitem:
+    subfolders:
+    - title: Dokumentasi Clash
+      output: web
+      subfolderitem:
 
-        - title: Openclash
-          url: /openclash.html
-          output: web, pdf
+      - title: Openclash
+        url: /openclash.html
+        output: web, pdf
         
-        - title: Clash Android
-          url: /clash-android.html
-          output: web, pdf
+      - title: Clash Android
+        url: /clash-android.html
+        output: web, pdf
 
-        - title: Clash Magisk
-          url: /clash-magisk.html
-          output: web, pdf
+      - title: Clash Magisk
+        url: /clash-magisk.html
+        output: web, pdf
         
-        - title: Clash Windows
-          url: /clash-windows.html
-          output: web, pdf
+      - title: Clash Windows
+        url: /clash-windows.html
+        output: web, pdf
 
-      subfolders:
-      - title: File
-        output: web
-        subfolderitem:
+    subfolders:
+    - title: File
+      output: web
+      subfolderitem:
 
-        - title: File Openclash
-          url: /file-openclash.html
-          output: web, pdf
+      - title: File Openclash
+        url: /file-openclash.html
+        output: web, pdf
         
-        - title: File Clash Android
-          url: /file-clash-android.html
-          output: web, pdf
+      - title: File Clash Android
+        url: /file-clash-android.html
+        output: web, pdf
 
-        - title: File Clash Magisk
-          url: /file-clash-magisk.html
-          output: web, pdf
+      - title: File Clash Magisk
+        url: /file-clash-magisk.html
+        output: web, pdf
         
-        - title: File Clash Windows
-          url: /file-clash-windows.html
-          output: web, pdf
+      - title: File Clash Windows
+        url: /file-clash-windows.html
+        output: web, pdf
 
   - title: Toko
     output: web
     folderitems:
 
-      - title: Toko Shop
-        external_url: https://mycollection.shop/serbulapakku
+    - title: Toko Shop
+      external_url: https://mycollection.shop/serbulapakku
