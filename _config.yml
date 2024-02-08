@@ -136,10 +136,10 @@ utterances:
 # https://giscus.vercel.app/
 giscus:
   repo:                "yusuftutorial/home"
-  repo-id:             "46000841"
+  repo-id:             "R_kgDOLPEPoA"
   category:            "Comments"
-  category-id:         "MDQ6VXNlcjQ2MDAwODQx"
-  mapping:             "pathname"
+  category-id:         "Announcements"
+  mapping:             "title"
   reaction-enabled:    "1"
-  theme:               "dark_dimmed"
+  theme:               "dark"
   crossorigin:         "anonymous"
