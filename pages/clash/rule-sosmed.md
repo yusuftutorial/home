@@ -34,5 +34,3 @@ comments: true
   - "+.douyin.com"
   - "+.wechat.com"
 </code></pre>
-
-{% include komentar.html %}

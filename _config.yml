@@ -74,7 +74,6 @@ defaults:
       search: true
       sidebar: home
       topnav: topnav
-      provider: giscus
 
   -
     scope:
@@ -117,20 +116,3 @@ plugins:
   - jekyll-seo-tag
 
 github: [metadata]
-
-# Set which comment system to use
-
-provider: giscus
-
-# You must install giscus github app before use.(https://github.com/apps/giscus)
-# Make sure all variables are set properly. Check below link for detail.
-# https://giscus.vercel.app/
-giscus:
-  repo:                "yusuftutorial/home"
-  repo-id:             "R_kgDOLPEPoA"
-  category:            "Comments"
-  category-id:         "Announcements"
-  mapping:             "title"
-  reaction-enabled:    "1"
-  theme:               "dark"
-  crossorigin:         "anonymous"

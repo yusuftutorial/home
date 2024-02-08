@@ -35,5 +35,3 @@ comments: true
   - "+.banksultim.co.id"
   - "+.bankpapua.co.id"
 </code></pre>
-
-{% include komentar.html %}

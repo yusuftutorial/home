@@ -7,5 +7,3 @@ permalink: rule-block-porn.html
 folder: clash
 comments: true
 ---
-
-{% include komentar.html %}

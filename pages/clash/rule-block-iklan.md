@@ -7,5 +7,3 @@ permalink: rule-block-iklan.html
 folder: clash
 comments: true
 ---
-
-{% include komentar.html %}

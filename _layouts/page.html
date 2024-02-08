@@ -65,6 +65,10 @@ layout: default
         {% endif %}
     </div>
 
+{% if page.comments %}
+{% include komentar.html %}
+{% endif %}
+
 {% include share.html %}
 
 {% include donasi.html %}
