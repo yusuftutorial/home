@@ -9,15 +9,15 @@ entries:
     output: web
     folderitems:
 
-    - title: Home
-        url: /index.html
-        output: web, pdf
-        type: homepage
-
       subfolders:
       - title: Tentang saya
         output: web
         subfolderitem:
+
+        - title: Home
+          url: /index.html
+          output: web, pdf
+          type: homepage
 
         - title: Kontak
           url: /kontak.html
