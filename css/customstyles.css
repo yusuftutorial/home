@@ -1295,3 +1295,16 @@ h4.panel-title {
       grid-template-columns: repeat(1, 1fr);
     }
   }
+
+  .utterances {
+    max-width: 100%;
+  }
+  
+  .giscus, .giscus-frame {
+    width: 100%;
+  }
+  
+  .giscus-frame {
+    border: none;
+  }
+  
