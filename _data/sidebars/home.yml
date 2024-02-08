@@ -20,10 +20,6 @@ entries:
       url: /support.html
       output: web
 
-    - title: File
-      url: /file.html
-      output: web
-
     - title: Sitemap
       url: /sitemap.html
       output: web
@@ -36,8 +32,8 @@ entries:
       url: /privacy-policy.html
       output: web
 
-    - title: Term of service
-      url: /sitemap.html
+    - title: TOS
+      url: /tos.html
       output: web
 
   - title: Tutorial

@@ -1,11 +1,15 @@
 ---
-title: "Kontak"
-keywords: kontak
-tags: [ringkasan]
+title: Kontak
 sidebar: home
+keywords: kontak
 permalink: kontak.html
+tags: [ringkasan]
+toc: true
+folder: home
 summary: Halaman kontak dari Yusuf Tutorial Channel.
 ---
+
+## Chat
 
 <table>
 <thead>
@@ -24,6 +28,8 @@ summary: Halaman kontak dari Yusuf Tutorial Channel.
 </tbody>
 </table>
 
+## Sosmed
+
 <table>
 <thead>
 <tr>
@@ -40,6 +46,8 @@ summary: Halaman kontak dari Yusuf Tutorial Channel.
 </tr>
 </tbody>
 </table>
+
+## Group
 
 <table>
 <thead>
