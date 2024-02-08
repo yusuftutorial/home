@@ -111,9 +111,9 @@ url: https://yusuftutorial.xyz
 baseurl: /
 
 plugins:
-  - jekyll-sitemap
   - jekyll-feed
-  - jekyll-seo
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 github: [metadata]
 
