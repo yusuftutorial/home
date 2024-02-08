@@ -21,4 +21,6 @@ Propinsi  : Kalimantan Selatan
 Negara    : Indonesia
 ```
 
+{% include taglogic.html %}
+
 {% include links.html %}
