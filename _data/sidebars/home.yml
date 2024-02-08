@@ -81,7 +81,6 @@ entries:
           url: /clash-windows.html
           output: web
 
-      subfolders:
       - title: File
         output: web
         subfolderitems:
