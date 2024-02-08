@@ -6,6 +6,7 @@ permalink: disclaimer.html
 tags: [ringkasan]
 toc: true
 folder: home
+comments: false
 summary: Halaman disclaimer dari Yusuf Tutorial Channel.
 ---
 

@@ -6,6 +6,7 @@ permalink: privacy-policy.html
 tags: [ringkasan]
 toc: true
 folder: home
+comments: false
 summary: Halaman privacy policy dari Yusuf Tutorial Channel.
 ---
 

@@ -4,6 +4,7 @@ keywords: beranda
 tags: [ringkasan]
 sidebar: home
 permalink: index.html
+comments: false
 summary: Halaman beranda dari Yusuf Tutorial Channel.
 ---
 

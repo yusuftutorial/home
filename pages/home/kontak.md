@@ -6,6 +6,7 @@ permalink: kontak.html
 tags: [ringkasan]
 toc: true
 folder: home
+comments: false
 summary: Halaman kontak dari Yusuf Tutorial Channel.
 ---
 

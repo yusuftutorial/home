@@ -32,7 +32,9 @@ layout: default
 
 </article>
 
-{% include commento.html %}
+{% if page.comments %}
+{% include komentar.html %}
+{% endif %}
 
 {% include donasi.html %}
 

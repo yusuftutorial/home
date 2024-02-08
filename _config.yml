@@ -71,7 +71,6 @@ defaults:
       type: "pages"
     values:
       layout: "page"
-      comments: true
       search: true
       sidebar: home
       topnav: topnav

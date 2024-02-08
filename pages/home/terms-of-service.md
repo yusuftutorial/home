@@ -6,6 +6,7 @@ permalink: tos.html
 tags: [ringkasan]
 toc: true
 folder: home
+comments: false
 summary: Halaman terms of service dari Yusuf Tutorial Channel.
 ---
 
