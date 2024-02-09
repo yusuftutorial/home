@@ -30,7 +30,7 @@ tags: [clash]
 
 ## hapus konfiguration obfs lama remove sebelum memperbarui
 
-<pre id="myPreTag">
+<pre id="myPreTag1">
 - name: "ss2"
   type: ss
   server: server
@@ -45,7 +45,7 @@ tags: [clash]
 
 ## Shadowsocks Versi 3
 
-<pre id="myPreTag">
+<pre id="myPreTag2">
 - name: "ss3"
   type: ss
   server: server
@@ -65,7 +65,7 @@ tags: [clash]
 
 ## shadowsocksR
 
-<pre id="myPreTag">
+<pre id="myPreTag3">
 #The supported shadowsocksR ciphers(encrypt methods):
 #aes-128-cfb aes-192-cfb    aes-256-cfb
 #aes-128-ctr aes-192-ctr    aes-256-ctr

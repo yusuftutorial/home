@@ -35,7 +35,7 @@ tags: [clash]
 
 ## Vmess HTTP
 
-<pre id="myPreTag">
+<pre id="myPreTag1">
 - name: "vmess-http"
   type: vmess
   server: server

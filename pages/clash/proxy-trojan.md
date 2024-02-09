@@ -24,7 +24,7 @@ tags: [clash]
 
 ## Trojan WS
 
-<pre id="myPreTag">
+<pre id="myPreTag1">
 - name: "trojan"
   type: trojan
   server: bug.com
@@ -39,3 +39,5 @@ tags: [clash]
     headers:
       Host: id-trojan.com
 </pre>
+
+{% include salincode.html %}
