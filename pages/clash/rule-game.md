@@ -9,7 +9,11 @@ comments: true
 tags: [clash]
 ---
 
-<pre id="myPreTag">payload:
+## Rule Provider
+
+Taruh ke dalam file baru dengan nama `game.yaml` di dalam folder `rule_provider`.
+
+<pre>payload:
 
   # > RULE BY SIMASTER
   - "+.freefiremobile.com"
@@ -567,3 +571,25 @@ tags: [clash]
   - "+.yoshisnewisland.com"
   - "+.神奇宝贝.cn"
 </pre>
+
+## Config
+
+Salin dan tempelkan ke dalam `config` anda.
+
+<pre>rule-providers:
+  Game:
+    type: file
+    behavior: classical
+    path: "./rule_provider/game.yaml"</pre>
+
+Kemudian salin kembali lalu tempelkan lagi di dalam `config`.
+
+<pre>rules:
+- RULE-SET,Game,[isi nama group game]</pre>
+
+Sebagai contoh:
+
+rules:
+- RULE-SET,Game,GAME
+
+Jika sudah beres semua, silahkan untuk `save config` anda dan jalankan ulang `config` dengan menekan `switch config`
