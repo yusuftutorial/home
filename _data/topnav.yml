@@ -2,8 +2,7 @@ topnav_dropdowns:
 - title: Topnav dropdowns
   folders:
     - title: Home
-      items:
-
+      folderitems:
         - title: Beranda
           url: /index.html
         - title: GitHub
