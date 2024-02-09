@@ -39,5 +39,3 @@ tags: [clash]
     headers:
       Host: id-trojan.com
 </pre>
-
-{% include salincode.html %}
