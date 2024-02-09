@@ -10,7 +10,7 @@ donasi: true
 tags: [clash]
 ---
 
-```yaml
+<pre id="myPreTag">
 # cipher support auto/aes-128-gcm/chacha20-poly1305/none
 
 - name: "vmess"
@@ -31,11 +31,11 @@ tags: [clash]
       Host: v2ray.com
     max-early-data: 2048
     early-data-header-name: Sec-WebSocket-Protocol
-```
+</pre>
 
 ## Vmess HTTP
 
-```yaml
+<pre id="myPreTag">
 - name: "vmess-http"
   type: vmess
   server: server
@@ -53,4 +53,4 @@ tags: [clash]
     headers:
       Connection:
         - keep-alive
-```
+</pre>

@@ -11,7 +11,7 @@ tags: [clash]
 
 ## Trojan GFW
 
-```yaml
+<pre id="myPreTag">
 - name: "trojan"
   type: trojan
   server: id-trojan.com
@@ -20,11 +20,11 @@ tags: [clash]
   udp: true
   sni: bug.com
   skip-cert-verify: true
-```
+</pre>
 
 ## Trojan WS
 
-```yaml
+<pre id="myPreTag">
 - name: "trojan"
   type: trojan
   server: bug.com
@@ -38,4 +38,4 @@ tags: [clash]
     path: /pathakun
     headers:
       Host: id-trojan.com
-```
+</pre>

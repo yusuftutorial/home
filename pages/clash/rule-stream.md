@@ -9,7 +9,7 @@ comments: true
 tags: [clash]
 ---
 
-<pre><code>payload:
+<pre id="myPreTag"></code:
 
   # > RULE BY SIMASTER
   - "+.youtube.com"

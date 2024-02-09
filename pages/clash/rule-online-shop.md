@@ -9,7 +9,7 @@ comments: true
 tags: [clash]
 ---
 
-<pre><code>payload:
+<pre id="myPreTag">payload:
 
   # > RULE BY SIMASTER
   - "+.shopee.co.id"
@@ -23,4 +23,4 @@ tags: [clash]
   - "+.alibaba.com"
   - "+.ebay.com"
   - "+.shopify.com"
-</code></pre>
+</pre>

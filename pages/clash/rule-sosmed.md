@@ -9,7 +9,7 @@ comments:
 tags: [clash]
 ---
 
-<pre><code>payload:
+<pre id="myPreTag">payload:
 
   # > RULE BY SIMASTER
   - "+.fb.com"
@@ -34,4 +34,4 @@ tags: [clash]
   - "+.qq.com"
   - "+.douyin.com"
   - "+.wechat.com"
-</code></pre>
+</pre>

@@ -10,7 +10,7 @@ donasi: true
 tags: [clash]
 ---
 
-```yaml
+<pre id="myPreTag">
 # shadowsocks
 # The supported ciphers(encrypt methods):
 #   aes-128-gcm aes-192-gcm aes-256-gcm
@@ -26,11 +26,11 @@ tags: [clash]
   cipher: chacha20-ietf-poly1305
   password: "password"
   udp: true
-```
+</pre>
 
 ## hapus konfiguration obfs lama remove sebelum memperbarui
 
-```yaml
+<pre id="myPreTag">
 - name: "ss2"
   type: ss
   server: server
@@ -41,11 +41,11 @@ tags: [clash]
   plugin-opts:
     mode: tls # or http
     #  host: bing.com
-```
+</pre>
 
 ## Shadowsocks Versi 3
 
-```yaml
+<pre id="myPreTag">
 - name: "ss3"
   type: ss
   server: server
@@ -61,11 +61,11 @@ tags: [clash]
     path: "/"
     headers:
        custom: value
-```
+</pre>
 
 ## shadowsocksR
 
-```yaml
+<pre id="myPreTag">
 #The supported shadowsocksR ciphers(encrypt methods):
 #aes-128-cfb aes-192-cfb    aes-256-cfb
 #aes-128-ctr aes-192-ctr    aes-256-ctr
@@ -90,4 +90,4 @@ tags: [clash]
    obfs-param: domain.tld
    protocol-param: "#"
    udp: true
-```
+</pre>

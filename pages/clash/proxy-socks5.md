@@ -10,7 +10,7 @@ donasi: true
 tags: [clash]
 ---
 
-```yaml
+<pre id="myPreTag">
 - name: "socks"
   type: socks5
   server: ip-akun.com
@@ -20,4 +20,4 @@ tags: [clash]
   tls: true
   skip-cert-verify: true
   udp: true
-```
+</pre>

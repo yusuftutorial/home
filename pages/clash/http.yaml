@@ -10,7 +10,7 @@ donasi: true
 tags: [clash]
 ---
 
-```yaml
+<pre id="myPreTag">
 - name: "http"
   type: http
   server: server
@@ -19,4 +19,4 @@ tags: [clash]
   password: isi sandi
   tls: true # ini untuk versi https
   skip-cert-verify: true
-```
+</pre>

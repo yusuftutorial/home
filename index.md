@@ -14,12 +14,11 @@ description: Halaman beranda dari Yusuf Tutorial Channel.
 
 ## Data Pribadi
 
-<pre><code class="html">
-Nama      : Muhammad Yusuf
+<pre id="myPreTag">Nama      : Muhammad Yusuf
 Alamat    : Jl. A. Yani KM 14.500
 Kecamatan : Gambut
 Kelurahan : Gambut
 Kabupaten : Banjar
 Propinsi  : Kalimantan Selatan
 Negara    : Indonesia
-</code></pre>
+</pre>

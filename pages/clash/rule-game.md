@@ -9,7 +9,7 @@ comments: true
 tags: [clash]
 ---
 
-<pre><code>payload:
+<pre id="myPreTag">payload:
 
   # > RULE BY SIMASTER
   - "+.freefiremobile.com"
@@ -566,4 +566,4 @@ tags: [clash]
   - "+.yogify.com"
   - "+.yoshisnewisland.com"
   - "+.神奇宝贝.cn"
-</code></pre>
+</pre>

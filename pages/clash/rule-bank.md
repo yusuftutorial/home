@@ -9,7 +9,7 @@ comments: true
 tags: [clash]
 ---
 
-<pre><code>payload:
+<pre id="myPreTag">payload:
 
   # > RULE BY SIMASTER
   - "+.bri.co.id"
@@ -35,4 +35,4 @@ tags: [clash]
   - "+.banksulbar.co.id"
   - "+.banksultim.co.id"
   - "+.bankpapua.co.id"
-</code></pre>
+</pre>

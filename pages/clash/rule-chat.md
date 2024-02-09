@@ -9,10 +9,10 @@ comments: true
 tags: [clash]
 ---
 
-<pre><code>payload:
+<pre id="myPreTag">payload:
 
   # > RULE BY SIMASTER
   - "+.whatsapp.com"
   - "+.whatsapp.net"
   - "+.line.me"
-</code></pre>
+</pre>

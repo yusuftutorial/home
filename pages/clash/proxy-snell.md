@@ -10,7 +10,7 @@ donasi: true
 tags: [clash]
 ---
 
-```yaml
+<pre id="myPreTag">
 - name: "snell"
   type: snell
   server: ip-akun.com
@@ -19,4 +19,4 @@ tags: [clash]
   obfs-opts:
   mode: http # atau pilih tls
   host: bug.com
-```
+</pre>
