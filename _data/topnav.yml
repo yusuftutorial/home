@@ -3,9 +3,8 @@ topnav_dropdowns:
   folders:
     - title: Home
       folderitems:
-
         - title: Beranda
-          url: /index.html
+          url: /index
         - title: GitHub
           external_url: https://github.com/yusuftutorial
         - title: Youtube
@@ -18,18 +17,35 @@ topnav_dropdowns:
         - title: Blog
           url: /blog
         - title: Adsense
-          url: /tag-adsense.html
+          url: /tag-adsense
         - title: Youtube
-          url: /tag-youtube.html
+          url: /tag-youtube
         - title: Sosmed
-          url: /tag-sosmed.html
+          url: /tag-sosmed
         - title: Openwrt
-          url: /tag-openwrt.html
+          url: /tag-openwrt
         - title: Mikrotik
-          url: /tag-mikrotik.html
+          url: /tag-mikrotik
         - title: Clash
-          url: /tag-clash.html
+          url: /tag-clash
         - title: Passwall
-          url: /tag-passwall.html
-
-# Copyright 2021 Google LLC
+          url: /tag-passwall
+    
+    - title: File
+      folderitems:
+        - title: Adsense
+          url: /adsense
+        - title: Youtube
+          url: /youtube
+        - title: Sosmed
+          url: /sosmed
+        - title: Openwrt
+          url: /openwrt
+        - title: Mikrotik
+          url: /mikrotik
+        - title: Clash
+          url: /clash
+        - title: Passwall
+          url: /passwall
+        - title: Aplikasi
+          url: /aplikasi

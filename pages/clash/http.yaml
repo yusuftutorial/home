@@ -1,0 +1,22 @@
+---
+title: Proxy http
+keywords: proxy http
+sidebar: clash
+toc: false
+permalink: proxy-http.html
+folder: clash
+comments: true
+donasi: true
+tags: [clash]
+---
+
+```yaml
+- name: "http"
+  type: http
+  server: server
+  port: 443
+  username: isi user
+  password: isi sandi
+  tls: true # ini untuk versi https
+  skip-cert-verify: true
+```
