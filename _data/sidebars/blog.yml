@@ -1,0 +1,51 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: Blog
+  product: Blog
+  version:
+  folders:
+
+  - title: Blog Utama
+    output: web
+    folderitems:
+
+    - title: Blog Artikel
+      url: /blog
+      output: web
+
+    - title: Arsip Blog
+      url: /arsip
+      output: web
+
+  - title: Label
+    output: web
+    folderitems:
+
+    - title: Adsense
+      url: /tag-adsense.html
+      output: web
+      
+    - title: Youtube
+      url: /tag-youtube.html
+      output: web
+
+    - title: Sosmed
+      url: /tag-sosmed.html
+      output: web
+
+    - title: Openwrt
+      url: /tag-openwrt.html
+      output: web
+
+    - title: Mikrotik
+      url: /tag-mikrotik.html
+      output: web
+
+    - title: Clash
+      url: /tag-clash.html
+      output: web
+
+    - title: Passwall
+      url: /tag-passwall.html
+      output: web

@@ -1,9 +1,10 @@
 entries:
-- title: Sidebar
-  levels: one
+- title: Home
+  product: Home
+  levels:
   folders:
 
-  - title: Halaman Utama
+  - title: Ringkasan
     output: web
     folderitems:
     
@@ -31,67 +32,6 @@ entries:
     - title: TOS
       url: /tos.html
       output: web
-
-  - title: Tutorial
-    output: web
-    folderitems:
-
-    - title: Blog
-      url: /blog.html
-      output: web
-              
-    - title: Arsip
-      url: /arsip.html
-      output: web
-
-  - title: Update
-    output: web
-    folderitems:
-
-    - title: Clash
-      url: /clash.html
-      output: web
-
-      subfolders:
-      - title: Dokumentasi Clash
-        output: web
-        subfolderitems:
-
-        - title: Openclash
-          url: /openclash.html
-          output: web
-            
-        - title: Clash Android
-          url: /clash-android.html
-          output: web
-
-        - title: Clash Magisk
-          url: /clash-magisk.html
-          output: web
-            
-        - title: Clash Windows
-          url: /clash-windows.html
-          output: web
-
-      - title: File
-        output: web
-        subfolderitems:
-
-        - title: File Openclash
-          url: /file-openclash.html
-          output: web
-            
-        - title: File Clash Android
-          url: /file-clash-android.html
-          output: web
-
-        - title: File Clash Magisk
-          url: /file-clash-magisk.html
-          output: web
-            
-        - title: File Clash Windows
-          url: /file-clash-windows.html
-          output: web
 
   - title: Toko
     output: web

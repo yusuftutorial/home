@@ -1,9 +1,7 @@
-# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
-
 entries:
 - title: Clash
-  product: Yusuf Tutorial
-  version: 1.0
+  product: Update
+  version: 8 Feb 2024
   folders:
 
   - title: Home

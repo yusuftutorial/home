@@ -3,9 +3,9 @@ title: "Blog"
 tagName: blog
 search: exclude
 permalink: tag-blog.html
-sidebar: home
+sidebar: blog
 folder: tags
-comments: 
+comments: false
 donasi: false
 ---
 
