@@ -7,7 +7,8 @@ tags: [ringkasan]
 toc: true
 folder: home
 comments: false
-summary: Halaman privacy policy dari Yusuf Tutorial Channel.
+donasi: true
+description: Halaman privacy policy dari Yusuf Tutorial Channel.
 ---
 
 ### Informasi yang Kami Kumpulkan :

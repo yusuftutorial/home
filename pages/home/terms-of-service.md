@@ -7,7 +7,8 @@ tags: [ringkasan]
 toc: true
 folder: home
 comments: false
-summary: Halaman terms of service dari Yusuf Tutorial Channel.
+donasi: true
+description: Halaman terms of service dari Yusuf Tutorial Channel.
 ---
 
 ## Terms and Conditions

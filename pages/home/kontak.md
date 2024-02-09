@@ -4,10 +4,11 @@ sidebar: home
 keywords: kontak
 permalink: kontak.html
 tags: [ringkasan]
-toc: true
+toc: false
 folder: home
 comments: false
-summary: Halaman kontak dari Yusuf Tutorial Channel.
+donasi: true
+description: Halaman kontak dari Yusuf Tutorial Channel.
 ---
 
 ## Chat

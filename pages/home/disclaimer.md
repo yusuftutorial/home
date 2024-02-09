@@ -7,7 +7,8 @@ tags: [ringkasan]
 toc: true
 folder: home
 comments: false
-summary: Halaman disclaimer dari Yusuf Tutorial Channel.
+donasi: true
+description: Halaman disclaimer dari Yusuf Tutorial Channel.
 ---
 
 Seluruh konten yang disajikan di blog ini bersifat informatif dan bersifat umum. Penyajian informasi dilakukan dengan sebaik mungkin, namun tidak dapat dijamin keakuratannya. Pengelola tidak bertanggung jawab atas segala kerugian atau kerusakan yang timbul akibat penggunaan informasi dari blog ini.
