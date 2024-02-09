@@ -1541,34 +1541,6 @@ font-weight: bold;
 box-shadow: none;
 }
 
-  
-pre {
-  position: relative;
-  background: #000000;
-  color: white;
-  padding: 10px;
-  font-size: 15px;
-  word-wrap: break-word;
-  white-space: pre-wrap;
-  border: 1px solid #00a31b;
-  max-width: 500px;
-}
-  
-.copy-button {
-  position: absolute;
-  top: 2px;
-  right: 10px;
-  cursor: pointer;
-  color: #fff;
-  background: #00a31b;
-  border-radius: 0.5em;
-  padding: 2px 7px;
-}
-  
-.copy-button:hover {
-  color: rgb(173, 144, 15);
-}
-
 .container {
 padding-right: 15px;
 padding-left: 15px;
