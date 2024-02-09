@@ -4,7 +4,7 @@ jQuery( document).ready(function($){
 		copyid++;
 		$(this).attr( 'data-copyid', copyid).wrap( '<div class="pre-wrapper"/>');
 		$(this).parent().css( 'margin', $(this).css( 'margin') );
-		$('<button class="copy-snippet">Copy</button>').insertAfter( $(this) ).data( 'copytarget',copyid );
+		$('<button class="copy-snippet">Salin</button>').insertAfter( $(this) ).data( 'copytarget',copyid );
 	});
 
 	$('body').on( 'click', '.copy-snippet', function(ev){
@@ -45,9 +45,9 @@ jQuery( document).ready(function($){
 
 			try {
 				document.execCommand('copy');
-				$copyButton.text( 'Copied').prop('disabled', true);;
+				$copyButton.text( 'Di salin').prop('disabled', true);;
 			} catch (err) {
-				$copyButton.text( 'FAILED: Could not copy').prop('disabled', true);;
+				$copyButton.text( 'Gagal: Tidak dapat menyalin').prop('disabled', true);;
 			}
 			setTimeout(function(){
 				$copyButton.text( 'Copy').prop('disabled', false);;
