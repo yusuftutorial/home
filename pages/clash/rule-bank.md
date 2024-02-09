@@ -9,7 +9,11 @@ comments: true
 tags: [clash]
 ---
 
-<pre id="myPreTag">payload:
+## Rule Provider
+
+Taruh ke dalam file baru dengan nama `bank.yaml` di dalam folder `rule_provider`.
+
+<pre>payload:
 
   # > RULE BY SIMASTER
   - "+.bri.co.id"
@@ -34,5 +38,26 @@ tags: [clash]
   - "+.banksultra.co.id"
   - "+.banksulbar.co.id"
   - "+.banksultim.co.id"
-  - "+.bankpapua.co.id"
-</pre>
+  - "+.bankpapua.co.id"</pre>
+
+## Config
+
+Salin dan tempelkan ke dalam `config` anda.
+
+<pre>rule-providers:
+  Bank:
+    type: file
+    behavior: classical
+    path: "./rule_provider/bank.yaml"</pre>
+
+Kemudian salin kembali lalu tempelkan lagi di dalam `config`.
+
+<pre>rules:
+- RULE-SET,Bank,[isi nama group bank]</pre>
+
+Sebagai contoh:
+
+rules:
+- RULE-SET,Bank,BANK
+
+Jika sudah beres semua, silahkan untuk `save config` anda dan jalankan ulang `config` dengan menekan `switch config`
