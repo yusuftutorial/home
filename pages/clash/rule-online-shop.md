@@ -6,6 +6,7 @@ toc: false
 permalink: rule-online-shop.html
 folder: clash
 comments: true
+tags: [clash]
 ---
 
 <pre><code>payload:

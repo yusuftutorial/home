@@ -6,4 +6,5 @@ toc: false
 permalink: rule-block-iklan.html
 folder: clash
 comments: true
+tags: [clash]
 ---

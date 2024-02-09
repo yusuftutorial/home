@@ -6,6 +6,7 @@ toc: false
 permalink: rule-stream.html
 folder: clash
 comments: true
+tags: [clash]
 ---
 
 <pre><code>payload:

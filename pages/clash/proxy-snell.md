@@ -6,4 +6,5 @@ toc: false
 permalink: proxy-snell.html
 folder: clash
 comments: true
+tags: [clash]
 ---

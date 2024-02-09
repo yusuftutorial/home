@@ -5,7 +5,8 @@ sidebar: clash
 toc: false
 permalink: rule-sosmed.html
 folder: clash
-comments: true
+comments: 
+tags: [clash]
 ---
 
 <pre><code>payload:

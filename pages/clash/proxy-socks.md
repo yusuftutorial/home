@@ -6,4 +6,5 @@ toc: false
 permalink: proxy-socks.html
 folder: clash
 comments: true
+tags: [clash]
 ---
