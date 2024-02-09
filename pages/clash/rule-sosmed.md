@@ -47,7 +47,7 @@ Salin dan tempelkan ke dalam `config` anda.
   Sosmed:
     type: file
     behavior: classical
-    path: "./sosmed.yaml"</pre>
+    path: "./rule_provider/sosmed.yaml"</pre>
 
 Kemudian salin kembali lalu tempelkan lagi di dalam `config`.
 
