@@ -4,14 +4,6 @@ entries:
   version: 8 Feb 2024
   folders:
 
-  - title: Home
-    output: web 
-    folderitems:
-
-    - title: Beranda
-      url: /index.html
-      output: web
-
   - title: Clash
     output: web, pdf
     folderitems:
