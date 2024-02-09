@@ -9,7 +9,11 @@ comments: true
 tags: [clash]
 ---
 
-<pre id="myPreTag"></code:
+## Rule Provider
+
+Taruh ke dalam file baru dengan nama `stream.yaml` di dalam folder `rule_provider`.
+
+<pre>payload:
 
   # > RULE BY SIMASTER
   - "+.youtube.com"
@@ -41,5 +45,26 @@ tags: [clash]
   - "+.streamlabs.com"
   - "+.twitch.tv"
   - "+.nimo.tv"
-  - "+.obsproject.com"
-</code></pre>
+  - "+.obsproject.com"</pre>
+
+## Config
+
+Salin dan tempelkan ke dalam `config` anda.
+
+<pre>rule-providers:
+  Stream:
+    type: file
+    behavior: classical
+    path: "./rule_provider/stream.yaml"</pre>
+
+Kemudian salin kembali lalu tempelkan lagi di dalam `config`.
+
+<pre>rules:
+- RULE-SET,Stream,[isi nama group stream]</pre>
+
+Sebagai contoh:
+
+rules:
+- RULE-SET,Stream,STREAM
+
+Jika sudah beres semua, silahkan untuk `save config` anda dan jalankan ulang `config` dengan menekan `switch config`
