@@ -38,6 +38,6 @@ Kemudian salin kembali lalu tempelkan lagi di dalam `config`.
 Sebagai contoh:
 
 rules:
-- RULE-SET,Chat,chat
+- RULE-SET,Chat,CHAT
 
 Jika sudah beres semua, silahkan untuk `save config` anda dan jalankan ulang `config` dengan menekan `switch config`
