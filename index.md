@@ -20,7 +20,4 @@ Kecamatan : Gambut
 Kelurahan : Gambut
 Kabupaten : Banjar
 Propinsi  : Kalimantan Selatan
-Negara    : Indonesia
-</pre>
-
-{% include salincode.html %}
+Negara    : Indonesia</pre>
