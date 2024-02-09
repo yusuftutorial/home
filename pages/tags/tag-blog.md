@@ -5,7 +5,8 @@ search: exclude
 permalink: tag-blog.html
 sidebar: home
 folder: tags
-comments: false
+comments: 
+donasi: false
 ---
 
 {% include taglogic.html %}
