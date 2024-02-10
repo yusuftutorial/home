@@ -18,7 +18,11 @@ donasi: false
                 <a href="{{ "tag_" | append: tag | append: ".html"}}">{{tag}}</a>{% unless forloop.last %}, {% endunless%}
             {% endfor %}
         </span>
-        {% include images.html %}
+        
+        {% if post.image %}
+          <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="responsive-images">
+        {% endif %}
+
         <p>{% if page.description %} {{ page.description | strip_html | strip_newlines | truncate: 160 }} {% else %} {{ post.content | truncatewords: 50 | strip_html }} {% endif %}</p>
         {% endfor %}
 

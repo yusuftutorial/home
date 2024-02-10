@@ -22,7 +22,9 @@ layout: default
         <div class="summary">{{ page.description }}</div>
         {% endif %}
 
-        {% include images.html %}
+        {% if page.image %}
+        <img src="{{ page.images | relative_url }}" alt="{{ page.title }}" class="responsive-images">
+        {% endif %}
 
         {{ content }}
     </div>
