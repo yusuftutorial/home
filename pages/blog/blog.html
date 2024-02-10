@@ -23,7 +23,7 @@ donasi: false
           <img src="{{ post.images | relative_url }}" alt="{{ post.title }}" class="responsive-images">
         {% endif %}
 
-        <p>{% if page.description %} {{ page.description | strip_html | strip_newlines | truncate: 160 }} {% else %} {{ post.content | truncatewords: 50 | strip_html }} {% endif %}</p>
+        <p>{% if page.description %} {{ page.description | strip_html | strip_newlines | truncate: 160 }} {% else %} {{ post.content | truncatewords: 50 | strip_html }} {% endif %} <a href="{{ post.url | remove: "/" }}">Selengkapnya</a></p>
         {% endfor %}
 
         <hr />
