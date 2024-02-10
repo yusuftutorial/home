@@ -5,7 +5,7 @@ layout: default
 
     <header class="post-header">
         <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-        <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%-d %b %Y" }}</time> {% if page.author %}<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">/ {{ site.author }}</span></span>{% endif %}{% if page.tags != null %}/
+        <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%-d %b %Y" }}</time> / <span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">{{ site.author }}</span></span>{% if page.tags != null %}/
             {% assign projectTags = site.data.tags.allowed-tags %}
             {% for tag in page.tags %}
             {% if projectTags contains tag %}
@@ -38,19 +38,4 @@ layout: default
 {% include donasi.html %}
 {% endif %}
 
-<div class="post-list">
-    <section id="archive">
-        <h3>Recent posts</h3>
-    <ul class="past">
-        {% for post in site.posts limit:5 %} 
-            <li><time>{{ post.date | date:"%d %b" }}</time><a href="{{ post.url | remove: "/"}}">{{ post.title }}</a></li>  
-        {% endfor %}  
-    </ul>
-    </section>
-</div>
-
-{{site.data.alerts.hr_shaded}}
-
 {% include footer.html %}
-
-{% comment %} Copyright 2021 Google LLC {% endcomment %}
