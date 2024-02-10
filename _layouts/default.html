@@ -103,6 +103,8 @@
 <!-- /#main -->
     </div>
 <script src="js/copy-pre.js"></script>
+<script>cookieChoices={};</script>
+<script>var cookiesBox=document.querySelector("#cookiesBox"),cookiesAccBtn=document.querySelector("#cookiesAccBtn"),ckErrMes="Cookie can't be set! Please unblock this site from the cookie setting of your browser.";if(null!=cookiesBox){cookiesAccBtn.onclick=()=>{document.cookie="CookieConsentByFerisp=Accepted;max-age=2592000;path=/",document.cookie?cookiesBox.classList.add("acptd"):alert(ckErrMes)};let e=document.cookie.indexOf("CookieConsentByFerisp=Accepted");-1!=e?cookiesBox.classList.add("hidden"):cookiesBox.classList.remove("hidden");}</script>
 </body>
 {% if site.google_analytics %}
 {% include google_analytics.html %}

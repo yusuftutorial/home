@@ -1310,9 +1310,72 @@ h4.panel-title {
 
 /* share */
 
-#share-button{margin:10px 0;padding:5px;border: 1px solid #bdc3c7;overflow:hidden;border-radius:2px 30px;}
-#share-button p{font-weight:bold;float:left;display:block;padding:10px 5px 8px 8px!important;margin:0 3px 3px 0;}
-#share-button a{position:relative;float:left;box-shadow:1px 1px 5px rgba(1,1,1,.1);display:block;border-radius:1px 1px;color:#fafafa;padding:5px 8px;margin:0 5px 3px;border-radius:50%;box-shadow:4px 4px 0px #2e9206}
-#share-button a:hover{top:2px; left:2px;box-shadow:1px 1px 0px #500f0f} 
-#share-button a svg{width:24px; height:24px;}
-#share-button a svg path{fill:#fff}
+#share-button{
+  margin:10px 0;
+  padding:5px;
+  border: 1px solid #bdc3c7;
+  overflow:hidden;
+  border-radius:2px 30px;
+}
+
+#share-button p{
+  font-weight:bold;
+  float:left;
+  display:block;
+  padding:10px 5px 8px 8px!important;
+  margin:0 3px 3px 0;
+}
+
+#share-button a{
+  position:relative;
+  float:left;
+  box-shadow:1px 1px 5px rgba(1,1,1,.1);
+  display:block;
+  border-radius:1px 1px;
+  color:#fafafa;
+  padding:5px 8px;
+  margin:0 5px 3px;
+  border-radius:50%;
+  box-shadow:4px 4px 0px #2e9206
+}
+
+#share-button a:hover{
+  top:2px;
+  left:2px;
+  box-shadow:1px 1px 0px #500f0f
+}
+
+#share-button a svg{
+  width:24px;
+  height:24px;
+}
+
+#share-button a svg path{
+ fill:#fff
+}
+
+/* cookies */
+
+.cookiesWrap{position:fixed;justify-content:center;align-items:center;right:0;bottom:-600px;left:0;width:100%;background:#fffeff;padding:20px;font-family:"Noto Sans",sans-serif;text-align:center;border-radius:30px 30px 0 0;box-shadow:0 -10px 25px -5px rgba(0,0,0,.1);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);animation:cokiesUp 2.5s forwards;animation-delay:1s;-webkit-animation:cokiesUp 2.5s forwards;-webkit-animation-delay:1s;z-index:50}
+.cookiesWrap.acptd{animation:cookiesDown 2.5s backwards;animation-delay:.3s;-webkit-animation:cookiesDown 2.5s backwards;-webkit-animation-delay:.3s}
+.cookiesWrap.hidden{display:none}
+.cookiesWrap .cookiesNtfc svg{width:50px;height:50px;fill:#333;stroke:#333;stroke-width:.8}
+.cookiesNtfc h2{color:#08102b;margin:0;font-family:inherit;font-size:1.5rem;font-weight:700}
+.cookiesNtfc p{color:#08102b;margin:10px 0;font-size:0.9rem;font-weight:400;line-height:1.7em}
+.cookiesWrap .cookiesButton{display:inline-flex;align-items:center;max-width:100%;background:#009ee0;color:#fffeff;margin:0;padding:10px 15px;font-family:inherit;font-size:13px;line-height:20px;text-decoration:none;border:0;border-radius:25px;outline:0;cursor:pointer;white-space:nowrap;overflow:hidden;transition:all 0.3s ease}
+.cookiesWrap .cookiesButton:hover{opacity:.8;transform:scale(0.97)}
+.cookiesWrap .cookiesButton.outl{background:#eee;color:#08102b;margin-left:8px}
+@media screen and (min-width:768px){.cookiesWrap{max-width:450px;right:30px;bottom:-500px;left:auto;border-radius:10px;box-shadow:0 5px 35px rgba(0,0,0,.1);animation:cookiesDescUp 2.5s forwards;-webkit-animation:cookiesDescUp 2.5s forwards;animation-delay:1s;-webkit-animation-delay:1s}.cookiesWrap.acptd{animation:cookiesDescDown 2.5s backwards;-webkit-animation:cookiesDescDown 2.5s backwards;animation-delay:.3s;-webkit-animation-delay:0.3s}}
+@keyframes cokiesUp{100%{bottom:0}}
+@-webkit-keyframes cokiesUp{100%{bottom:0}}
+@keyframes cookiesDescUp{100%{bottom:30px}}
+@-webkit-keyframes cookiesDescUp{100%{bottom:30px}}
+@keyframes cookiesDown{0%{bottom:0}100%{bottom:-600px}}
+@-webkit-keyframes cookiesDown{0%{bottom:0}100%{bottom:-600px}}
+@keyframes cookiesDescDown{0%{bottom:30px}100%{bottom:-600px}}
+@-webkit-keyframes cookiesDescDown{0%{bottom:30px}100%{bottom:-600px}}
+
+.drK .cookiesWrap{background:rgba(50,50,50,.8)}
+.drK .cookiesWrap .cookiesNtfc svg{fill:#fffeff;stroke:#fffeff}
+.drK .cookiesWrap .outl{background:#252526;color:#989b9f}
+.drK .cookiesNtfc h2,.drK .cookiesNtfc p{color:#fffeff}
