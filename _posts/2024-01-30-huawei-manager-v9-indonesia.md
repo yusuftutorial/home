@@ -3,7 +3,7 @@ title:  "huawei manager versi 9 indonesia"
 published: true
 permalink: huawei-manager-v9-indonesia.html
 description: "Cara menggunakan aplikasi huawei manager versi 9 indonesia."
-tags: [blog]
+tags: [aplikasi]
 comments: true
 donasi: true
 images: https://i.ytimg.com/vi/g47CzhqcZoM/hqdefault.jpg

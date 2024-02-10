@@ -5,17 +5,22 @@ topnav_dropdowns:
       folderitems:
         - title: Beranda
           url: /index
-        - title: GitHub
-          external_url: https://github.com/yusuftutorial
-        - title: Youtube
-          external_url: https://youtube.com/@yusuftutorialchannel
-        - title: Facebook
-          external_url: https://facebook.com/muhammadyusuf1992
+        - title: Blog
+          url: /blog
+        - title: Kontak
+          url: /kontak
+        - title: Sitemap
+          url: /sitemap
+        - title: Disclaimer
+          url: /disclaimer
+        - title: Privacy policy
+          url: /privacy-policy
+        - title: TOS
+          url: /tos
+
         
     - title: Label
       folderitems:
-        - title: Blog
-          url: /blog
         - title: Adsense
           url: /tag-adsense
         - title: Youtube
@@ -30,23 +35,21 @@ topnav_dropdowns:
           url: /tag-clash
         - title: Passwall
           url: /tag-passwall
-        - title: File
-          url: /file
+        - title: Aplikasi
+          url: /tag-aplikasi
     
     - title: File
       folderitems:
         - title: Aplikasi
-          url: /file-aplikasi
+          url: /aplikasi
         - title: Software
-          url: /file-software
+          url: /software
         - title: Firmware
-          url: /file-firmware
+          url: /firmware
         - title: Template
-          url: /file-template
-        - title: Openwrt
-          url: /file-openwrt
+          url: /template
         - title: Mikrotik
-          url: /file-mikrotik
+          url: /mikrotik
         - title: Clash
           url: /clash
         - title: Passwall
