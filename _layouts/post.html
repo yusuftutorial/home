@@ -14,7 +14,6 @@ layout: default
             {% endfor %}
             {% endif %}
         </p>
-
     </header>
 
     <div class="post-content" itemprop="articleBody">
@@ -23,13 +22,10 @@ layout: default
         <div class="summary">{{ page.description }}</div>
         {% endif %}
 
-        {% if page.image %}
-        <img src="{{ page.images }}" alt="{{ page.title }}" class="responsive-images">
-        {% endif %}
+        {% include images.html %}
 
         {{ content }}
     </div>
-
 </article>
 
 {% if page.comments %}
