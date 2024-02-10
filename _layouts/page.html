@@ -58,26 +58,15 @@ layout: default
         {% endif %}
     </div>
 
-{% if page.comments %}
-{% include komentar.html %}
-{% endif %}
+    {% if page.comments %}
+    {% include komentar.html %}
+    {% endif %}
 
-{% include share.html %}
+    {% include share.html %}
 
-{% if page.donasi %}
-{% include donasi.html %}
-{% endif %}
-
-<div class="post-list">
-    <section id="archive">
-        <h3>Recent posts</h3>
-    <ul class="past">
-        {% for post in site.posts limit:5 %} 
-            <li><time>{{ post.date | date:"%d %b" }}</time><a href="{{ post.url | remove: "/"}}">{{ post.title }}</a></li>  
-        {% endfor %}  
-    </ul>
-    </section>
-</div>
+    {% if page.donasi %}
+    {% include donasi.html %}
+    {% endif %}
 
 </div>
 
