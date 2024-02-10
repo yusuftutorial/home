@@ -47,7 +47,7 @@ Salin dan tempelkan ke dalam `config` anda.
 <pre>rule-providers:
   Bank:
     type: file
-    behavior: classical
+    behavior: domain
     path: "./rule_provider/bank.yaml"</pre>
 
 Kemudian salin kembali lalu tempelkan lagi di dalam `config`.
