@@ -1,7 +1,7 @@
 ---
-title: Blog
+title: Daftar Artikel
 sidebar: blog
-keywords: news, blog, updates, release notes, announcements
+keywords: news, blog, updates, release notes, announcements, artikel, tutorial
 permalink: blog.html
 tags: [blog]
 toc: false
@@ -24,11 +24,9 @@ donasi: false
         {% endif %}</p>
 
         <p>{% if page.description %} {{ page.description | strip_html | strip_newlines | truncate: 160 }} {% else %} {{ post.content | truncatewords: 50 | strip_html }} {% endif %} <a href="{{ post.url | remove: "/" }}">Selengkapnya</a></p>
-        <hr />
         {% endfor %}
 
         <hr />
-        <p><a href="feed.xml" class="btn btn-success navbar-btn cursorNorm" role="button">RSS Subscribe{{tag}}</a></p>
-        <p>Artikel lainnya bisa lihat di <a href="sitemap.html" class="btn btn-success navbar-btn cursorNorm" role="button">Sitemap</a>.</p>
+        <p>Artikel lainnya bisa lihat di <a href="sitemap.html">Sitemap</a>. Dan lihat juga di <a href="feed.xml">RSS Subscribe{{tag}}</a> saya.</p>
     </div>
 </div>
