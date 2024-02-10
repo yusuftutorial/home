@@ -13,7 +13,7 @@ donasi: true
 <div class="home">
     <div class="post-list">
         <section id="archive">
-            <h3>Daftar posts</h3>
+            <h3>{{ post.date | date: '%Y' }}</h3>
             {%for post in site.posts %}
             {% unless post.next %}
             <ul class="this">
@@ -37,7 +37,7 @@ donasi: true
 <div class="home">
     <div class="post-list">
         <section id="archive">
-            <h3>{{ post.date | date: '%Y' }}</h3>
+            <h3>Daftar Halaman</h3>
             <ul class="past">
                 {% for page in site.pages %}
                 <li><a href="{{ page.url | remove: "/"}}">{{ page.title }}</a></li>
