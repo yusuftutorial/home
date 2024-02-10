@@ -19,12 +19,12 @@ layout: default
 
     <div class="post-content" itemprop="articleBody">
 
-        {% if page.summary %}
+        {% if page.description %}
         <div class="summary">{{ page.description }}</div>
         {% endif %}
 
         {% if page.image %}
-        {% include images.html %}
+        <img src="{{ page.images }}" alt="{{ page.title }}" class="responsive-images">
         {% endif %}
 
         {{ content }}

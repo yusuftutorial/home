@@ -1379,3 +1379,10 @@ h4.panel-title {
 .drK .cookiesWrap .cookiesNtfc svg{fill:#fffeff;stroke:#fffeff}
 .drK .cookiesWrap .outl{background:#252526;color:#989b9f}
 .drK .cookiesNtfc h2,.drK .cookiesNtfc p{color:#fffeff}
+
+/* post image */
+
+.responsive-images{
+  width: 100%;
+  height: auto;
+}
