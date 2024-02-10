@@ -1336,7 +1336,9 @@ h4.panel-title {
   padding:5px 8px;
   margin:0 5px 3px;
   border-radius:50%;
-  box-shadow:4px 4px 0px #2e9206
+  box-shadow:4px 4px 0px #2e9206;
+  width:24px;
+  height:24px
 }
 
 #share-button a:hover{
