@@ -1,1 +1,1 @@
-<img src="{{ page.images }}" alt="{{ page.title }}" class="responsive-images">
+{% if page.image %}<img src="{{ include.images }}" alt="{{ include.title }}" class="responsive-images">{% endif %}
