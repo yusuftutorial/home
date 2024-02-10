@@ -14,10 +14,6 @@ entries:
       url: /blog
       output: web
 
-    - title: Arsip Blog
-      url: /arsip
-      output: web
-
   - title: Label
     output: web
     folderitems:
