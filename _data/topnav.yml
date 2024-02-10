@@ -30,22 +30,24 @@ topnav_dropdowns:
           url: /tag-clash
         - title: Passwall
           url: /tag-passwall
+        - title: File
+          url: /file
     
     - title: File
       folderitems:
-        - title: Adsense
-          url: /adsense
-        - title: Youtube
-          url: /youtube
-        - title: Sosmed
-          url: /sosmed
+        - title: Aplikasi
+          url: /file-aplikasi
+        - title: Software
+          url: /file-software
+        - title: Firmware
+          url: /file-firmware
+        - title: Template
+          url: /file-template
         - title: Openwrt
-          url: /openwrt
+          url: /file-openwrt
         - title: Mikrotik
-          url: /mikrotik
+          url: /file-mikrotik
         - title: Clash
           url: /clash
         - title: Passwall
           url: /passwall
-        - title: Aplikasi
-          url: /aplikasi
