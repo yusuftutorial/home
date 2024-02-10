@@ -1,10 +1,13 @@
 ---
-title: Sample 3 Topic (Product 1)
-keywords: sample
-summary: "This is just a sample topic..."
-sidebar: product1_sidebar
-permalink: p1_sample3.html
-folder: product1
+title: File Firmware
+keywords: firmware
+sidebar: file
+toc: false
+permalink: file-firmware.html
+folder: file
+comments: true
+donasi: true
+tags: [file]
 ---
 
 ## Sample Content

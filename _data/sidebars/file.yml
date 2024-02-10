@@ -1,0 +1,33 @@
+entries:
+- title: File
+  product: File
+  version: 10 feb 2024
+  folders:
+
+  - title: File
+    output: web
+    folderitems:
+
+    - title: Halaman File
+      url: /file.html
+      output: web
+
+  - title: Kategori File
+    output: web
+    folderitems:
+
+    - title: Aplikasi
+      url: /file-aplikasi.html
+      output: web
+    
+    - title: Software
+      url: /file-software.html
+      output: web
+    
+    - title: Firmware
+      url: /file-firmware.html
+      output: web
+    
+    - title: Template
+      url: /file-template.html
+      output: web

@@ -98,10 +98,10 @@ defaults:
 
 sidebars:
 - home
-- mydoc
-- product1
 - clash
+- file
 - other
+- mydoc
 
 description: "Edukasi seputar teknologi, adsense, youtube, blog, affiliasi, dan lainnya."
 # the description is used in the feed.xml file

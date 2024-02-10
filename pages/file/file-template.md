@@ -1,10 +1,13 @@
 ---
-title: Sample 6 Topic (Product 1)
-keywords: sample
-summary: "This is just a sample topic..."
-sidebar: product1_sidebar
-permalink: p1_sample6.html
-folder: product1
+title: File Template
+keywords: template
+sidebar: file
+toc: false
+permalink: file-template.html
+folder: file
+comments: true
+donasi: true
+tags: [file]
 ---
 
 ## Sample Content
