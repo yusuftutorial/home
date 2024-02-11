@@ -37,9 +37,9 @@ Untuk memasang config ini cara nya cukup mudah, anda hanya tinggal ikuti step da
 ![image](https://user-images.githubusercontent.com/46000841/183147778-4ed52067-5138-4001-b2d9-ebdb59e0daa5.png)
 
 1. Silahkan anda copy kan semua file ini lalu paste kan ke
-```
-C:\Users\[NAMA PENGGUNA ANDA]\.config\clash\profiles
-```
+
+<pre>C:\Users\[NAMA PENGGUNA ANDA]\.config\clash\profiles</pre>
+
 2. Setelah selesai anda copy paste, lalu file tadi anda masukkan juga ke Clash Windows pada bagian Profile
 
 3. Import **simaster.yaml** ke dalam profile CFW nanti tinggal tekan tombol samping nama profil
