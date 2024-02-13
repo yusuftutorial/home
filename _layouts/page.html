@@ -70,7 +70,7 @@ layout: default
 
     <div class="home">
         <div class="post-list">
-        <h2>Recent posts</h2>
+        <h3>Recent posts</h3>
         {% for post in site.posts limit:5 %}
         <h3><a class="post-link" href="{{ post.url | remove: "/" }}">{{ post.title }}</a></h3>
             <p>{{ post.date | date: "%-d %b %Y" }}<br />
@@ -79,6 +79,7 @@ layout: default
             <img src="{{ post.images | relative_url }}" alt="{{ post.title }}" class="responsive-images"></a>
             {% endif %}</p>
             {% endfor %}
+        <p>Untuk semua artikel bisa anda lihat <a href="/blog">disini</a></p>
         </div>
     </div>
 
