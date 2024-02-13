@@ -1376,6 +1376,7 @@ h4.panel-title {
 /* post image */
 
 .responsive-images{
-  width: 100%;
-  height: auto;
+  width: 320px;
+  height: 240px;
+  align-items: center;
 }
